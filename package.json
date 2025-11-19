@@ -1,0 +1,26 @@
+{
+  "name": "await-sleep-until",
+  "version": "1.0.0",
+  "description": "A smarter sleep for async code: await until time, condition, or event",
+  "keywords": [
+    "sleep",
+    "await",
+    "timer",
+    "delay",
+    "async"
+  ],
+  "license": "MIT",
+  "author": "luxurybird",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.5.0",
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  }
+}
